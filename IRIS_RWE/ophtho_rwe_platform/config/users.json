@@ -1,0 +1,14 @@
+{
+  "admin": {
+    "password_hash": "$2b$12$97/WDChfzcnLdQf5lafWyOA3mcGCpJu24AXxySA5o1OVwPF1I2nzm",
+    "role": "admin"
+  },
+  "clinician": {
+    "password_hash": "$2b$12$7Ze5IsT6c098FCFQ5IQvBO3.GfpVYoFJf6PWYh8RxsYKmOyYk9eBC",
+    "role": "clinician"
+  },
+  "analyst": {
+    "password_hash": "$2b$12$2WIVo4gf6PF7Ri9syZoqwOBLrZFJWgf9BNbkFw7B9gM/ieaQCVef2",
+    "role": "analyst"
+  }
+}
