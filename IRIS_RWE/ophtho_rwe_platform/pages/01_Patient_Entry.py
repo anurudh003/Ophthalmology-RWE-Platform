@@ -7,7 +7,7 @@ and only that token, plus generalised demographics, is persisted.
 """
 
 import streamlit as st
-from datetime import date
+from datetime import date, datetime
 
 from database.db import get_session, init_db
 from database.models import CONDITION_CATALOGUE, Diagnosis, Patient
@@ -190,10 +190,6 @@ if submitted:
                 )
                 st.info("Proceed to **Visit Entry** to record the first clinic appointment.")
 
-# ---------------------------------------------------------------------------
-# Import at bottom to avoid circular at top
-# ---------------------------------------------------------------------------
-from datetime import datetime  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # Existing patient lookup
